@@ -120,6 +120,8 @@
 </div>
 
 <style>
+
+        /* Initial transparent state */
     .header {
         background-color: transparent !important;
         transition: background-color 0.3s ease;
@@ -129,7 +131,6 @@
     .header.scrolled {
         background-color: #f8f9fa !important;
     }
-
     /* Active state for nav items */
     .nav-link.active {
         color: #2a4b7c !important;
@@ -294,7 +295,6 @@
         </div>
     </div>
 </div>
-
 
 <script>
     document.addEventListener('DOMContentLoaded', function() {

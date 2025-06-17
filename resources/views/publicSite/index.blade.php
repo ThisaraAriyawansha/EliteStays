@@ -49,10 +49,10 @@
 
 
         <!-- ============================ Hero Banner  Start================================== -->
-        <div class="image-cover hero-header bg-white" style="background:url(https://plus.unsplash.com/premium_photo-1666254114402-cd16bc302aea?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c3JpbGFua2F8ZW58MHx8MHx8fDA%3D) no-repeat center center fixed; background-size: cover; height: 90vh;" data-overlay="7">
-            <div class="container h-120">
+        <div class="image-cover hero-header bg-white" style="background:url(https://plus.unsplash.com/premium_photo-1666254114402-cd16bc302aea?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c3JpbGFua2F8ZW58MHx8MHx8fDA%3D) no-repeat center center fixed; background-size: cover; height: 120vh; " data-overlay="7">
+            <div class="container h-140">
                 <!-- Booking Form -->
-                <div class="row justify-content-center align-items-center h-100">
+                <div class="row justify-content-center align-items-center h-120">
                     <div class="col-xl-8 col-lg-9 col-md-10 col-sm-12">
                         <div class="position-relative text-center mb-4" style="font-family: 'Poppins', sans-serif;">
                             <h1 class="display-4 fw-bold">Book Your Dream Stay with <span class="position-relative z-4">EliteStays<span class="position-absolute top-50 start-50 translate-middle-none d-none d-md-block mt-4"></span></span></h1>
