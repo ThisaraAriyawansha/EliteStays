@@ -2,8 +2,7 @@
     <div class="container">
         <nav id="navigation" class="navigation navigation-landscape">
             <div class="nav-header">
-                <a class="nav-brand static-show" href="{{ route('home') }}"><img src="assets/img/logoBoomBitz.png" class="logo" alt=""></a>
-                <a class="nav-brand mob-show" href="{{ route('home') }}"><img src="" class="logo" alt="">BoomBitz</a>
+                <a class="nav-brand mob-show" href="{{ route('home') }}"><img src="" class="logo" alt="">EliteStays</a>
                 <div class="nav-toggle"></div>
                 <div class="mobile_nav">
                     <ul>
@@ -25,11 +24,10 @@
             <div class="nav-menus-wrapper" style="transition-property: none;">
                 <ul class="nav-menu">
 
-                    <li class="active"><a href="{{ route('home') }}"><i class="fa-solid fa-umbrella-beach me-2"></i>Stays</a></li>
+                    <li class="active"><a href="{{ route('home') }}"><i class="fa-solid fa-umbrella-beach me-2"></i>Home</a></li>
                     <li><a href="{{ route('flights') }}"><i class="fa-solid fa-jet-fighter me-2"></i>Flights</a></li>
                     <li><a href="{{ route('hotelFilter') }}"><i class="fa-solid fa-spa me-2"></i>Hotels</a></li>
                     <li><a href="{{ route('property') }}"><i class="fa-solid fa-house-circle-check me-2"></i>Rental</a></li>
-                    <!-- <li><a href="#"><i class="fa-solid fa-car me-2"></i>Cars</a></li> -->
 
                 </ul>
 
