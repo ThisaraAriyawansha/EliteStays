@@ -5,8 +5,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>BoomBitz</title>
-    <link rel="icon" type="image/x-icon" href="assets/img/headerboombitz.png">
+    <title>EliteStays</title>
 
     <!-- All Plugins -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
@@ -26,6 +25,8 @@
 
     <!-- Custom CSS -->
     <link href="assets/css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
@@ -48,99 +49,17 @@
 
 
         <!-- ============================ Hero Banner  Start================================== -->
-        <div class="image-cover hero-header bg-white" style="background:url(assets/img/banner-4.jpg)no-repeat;" data-overlay="7">
-            <div class="container">
-
-                <!-- Search Form -->
-                <div class="row justify-content-center align-items-center">
-
-                    <div class="col-xl-9 col-lg-10 col-md-12 col-sm-12">
-                        <div class="position-relative text-center mb-5">
-                            <h1>Explore The World <span class="position-relative z-4">Around<span
-                                        class="position-absolute top-50 start-50 translate-middle d-none d-md-block mt-4">
-                                        <!-- <svg width="185px" height="23px" viewBox="0 0 445.5 23">
-                                            <path class="fill-white opacity-7"
-                                                d="M409.9,2.6c-9.7-0.6-19.5-1-29.2-1.5c-3.2-0.2-6.4-0.2-9.7-0.3c-7-0.2-14-0.4-20.9-0.5 c-3.9-0.1-7.8-0.2-11.7-0.3c-1.1,0-2.3,0-3.4,0c-2.5,0-5.1,0-7.6,0c-11.5,0-23,0-34.5,0c-2.7,0-5.5,0.1-8.2,0.1 c-6.8,0.1-13.6,0.2-20.3,0.3c-7.7,0.1-15.3,0.1-23,0.3c-12.4,0.3-24.8,0.6-37.1,0.9c-7.2,0.2-14.3,0.3-21.5,0.6 c-12.3,0.5-24.7,1-37,1.5c-6.7,0.3-13.5,0.5-20.2,0.9C112.7,5.3,99.9,6,87.1,6.7C80.3,7.1,73.5,7.4,66.7,8 C54,9.1,41.3,10.1,28.5,11.2c-2.7,0.2-5.5,0.5-8.2,0.7c-5.5,0.5-11,1.2-16.4,1.8c-0.3,0-0.7,0.1-1,0.1c-0.7,0.2-1.2,0.5-1.7,1 C0.4,15.6,0,16.6,0,17.6c0,1,0.4,2,1.1,2.7c0.7,0.7,1.8,1.2,2.7,1.1c6.6-0.7,13.2-1.5,19.8-2.1c6.1-0.5,12.3-1,18.4-1.6 c6.7-0.6,13.4-1.1,20.1-1.7c2.7-0.2,5.4-0.5,8.1-0.7c10.4-0.6,20.9-1.1,31.3-1.7c6.5-0.4,13-0.7,19.5-1.1c2.7-0.1,5.4-0.3,8.1-0.4 c10.3-0.4,20.7-0.8,31-1.2c6.3-0.2,12.5-0.5,18.8-0.7c2.1-0.1,4.2-0.2,6.3-0.2c11.2-0.3,22.3-0.5,33.5-0.8 c6.2-0.1,12.5-0.3,18.7-0.4c2.2-0.1,4.4-0.1,6.7-0.1c11.5-0.1,23-0.2,34.6-0.4c7.2-0.1,14.4-0.1,21.6-0.1c12.2,0,24.5,0.1,36.7,0.1 c2.4,0,4.8,0.1,7.2,0.2c6.8,0.2,13.5,0.4,20.3,0.6c5.1,0.2,10.1,0.3,15.2,0.4c3.6,0.1,7.2,0.4,10.8,0.6c10.6,0.6,21.1,1.2,31.7,1.8 c2.7,0.2,5.4,0.4,8,0.6c2.9,0.2,5.8,0.4,8.6,0.7c0.4,0.1,0.9,0.2,1.3,0.3c1.1,0.2,2.2,0.2,3.2-0.4c0.9-0.5,1.6-1.5,1.9-2.5 c0.6-2.2-0.7-4.5-2.9-5.2c-1.9-0.5-3.9-0.7-5.9-0.9c-1.4-0.1-2.7-0.3-4.1-0.4c-2.6-0.3-5.2-0.4-7.9-0.6 C419.7,3.1,414.8,2.9,409.9,2.6z">
-                                            </path>
-                                        </svg> -->
-                                    </span></span> You</h1>
-                            <p class="fs-5 fw-light">Take a little break from the work strss of everyday. Discover plan trip and
-                                explore beautiful destinations.</p>
-                        </div>
-                    </div>
-
-                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
-            <div class="container">
-                <div class="row justify-content-center align-items-center">
-                    <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
-                        <div class="search-wrap with-label bg-white rounded-3 p-3 pt-4">
-                            <form method="GET" action="{{ route('hotelFilter') }}">
-                                <div class="row gy-3 gx-md-3 gx-sm-2">
-                                    <div class="col-xl-8 col-lg-7 col-md-12">
-                                        <div class="row gy-3 gx-md-3 gx-sm-2">
-                                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 position-relative">
-                                                <div class="form-group border rounded-1 mb-0">
-                                                    <label>Where</label>
-                                                    <select class="goingto form-control border-0" name="leaving[]" multiple="multiple">
-                                                        @foreach($filterOptions['cities'] as $city)
-                                                            <option value="{{ $city }}">{{ $city }}</option>
-                                                        @endforeach
-                                                    </select>
-                                                </div>
-                                            </div>
-                                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
-                                                <div class="form-group mb-0">
-                                                    <label>Choose Date</label>
-                                                    <input type="text" class="form-control fw-bold" placeholder="Check-In & Check-Out"
-                                                        id="checkinout" readonly="readonly">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-xl-4 col-lg-5 col-md-12">
-                                        <div class="row gy-3 gx-md-3 gx-sm-2">
-                                            <div class="col-xl-8 col-lg-8 col-md-8 col-sm-7">
-                                                <div class="form-group mb-0">
-                                                    <label>Members</label>
-                                                    <div class="booking-form__input guests-input mixer-auto">
-                                                        <button name="guests-btn" id="guests-input-btn">1 Guest</button>
-                                                        <div class="guests-input__options" id="guests-input-options">
-                                                            <div>
-                                                                <span class="guests-input__ctrl minus" id="adults-subs-btn"><i class="fa-solid fa-minus"></i></span>
-                                                                <span class="guests-input__value"><span id="guests-count-adults">1</span> Adults</span>
-                                                                <span class="guests-input__ctrl plus" id="adults-add-btn"><i class="fa-solid fa-plus"></i></span>
-                                                            </div>
-                                                            <div>
-                                                                <span class="guests-input__ctrl minus" id="children-subs-btn"><i class="fa-solid fa-minus"></i></span>
-                                                                <span class="guests-input__value"><span id="guests-count-children">0</span> Children</span>
-                                                                <span class="guests-input__ctrl plus" id="children-add-btn"><i class="fa-solid fa-plus"></i></span>
-                                                            </div>
-                                                            <div>
-                                                                <span class="guests-input__ctrl minus" id="room-subs-btn"><i class="fa-solid fa-minus"></i></span>
-                                                                <span class="guests-input__value"><span id="guests-count-room">0</span> Rooms</span>
-                                                                <span class="guests-input__ctrl plus" id="room-add-btn"><i class="fa-solid fa-plus"></i></span>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-5">
-                                                <div class="form-group mb-0">
-                                                    <button type="submit" class="btn btn-primary full-width rounded-1 fw-medium"><i class="fa-solid fa-magnifying-glass me-2"></i>Search</button>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </form>
+        <div class="image-cover hero-header bg-white" style="background:url(https://plus.unsplash.com/premium_photo-1666254114402-cd16bc302aea?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c3JpbGFua2F8ZW58MHx8MHx8fDA%3D) no-repeat center center fixed; background-size: cover; height: 90vh;" data-overlay="7">
+            <div class="container h-120">
+                <!-- Booking Form -->
+                <div class="row justify-content-center align-items-center h-100">
+                    <div class="col-xl-8 col-lg-9 col-md-10 col-sm-12">
+                        <div class="position-relative text-center mb-4" style="font-family: 'Poppins', sans-serif;">
+                            <h1 class="display-4 fw-bold">Book Your Dream Stay with <span class="position-relative z-4">EliteStays<span class="position-absolute top-50 start-50 translate-middle-none d-none d-md-block mt-4"></span></span></h1>
+                            <p class="fs-5 fw-light">Discover and reserve luxurious accommodations worldwide. Plan your perfect getaway with EliteStays.</p>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-                </div>
-                <!-- </row> -->
-
             </div>
         </div>
         <!-- ============================ Hero Banner End ================================== -->
