@@ -3,9 +3,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400;500;600;700;800&amp;display=swap");
 :root,
 [data-bs-theme=light] {
-  --bs-primary: #cd2c22;
-  --bs-primary-bg-subtle: #ffe6e5;
-  --bs-primary-bg-dark: #c4281e;
+  --bs-primary: #3a6ea5;
+  --bs-primary-bg-subtle: #c2e0ff;
+  --bs-primary-bg-dark: #3a6ea5;
   --bs-secondary: #c3d2de;
   --bs-secondary-bg-subtle: #dae5ee;
   --bs-success: #27a974;

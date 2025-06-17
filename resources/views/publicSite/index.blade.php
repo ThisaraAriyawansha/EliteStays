@@ -49,7 +49,7 @@
 
 
         <!-- ============================ Hero Banner  Start================================== -->
-        <div class="image-cover hero-header bg-white" style="background:url(https://plus.unsplash.com/premium_photo-1666254114402-cd16bc302aea?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c3JpbGFua2F8ZW58MHx8MHx8fDA%3D) no-repeat center center fixed; background-size: cover; height: 120vh; " data-overlay="7">
+        <div class="image-cover hero-header bg-white" style="background:url(https://plus.unsplash.com/premium_photo-1666254114402-cd16bc302aea?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c3JpbGFua2F8ZW58MHx8MHx8fDA%3D) no-repeat center center fixed; background-size: cover; height: 110vh; " data-overlay="7">
             <div class="container h-140">
                 <!-- Booking Form -->
                 <div class="row justify-content-center align-items-center h-120">
@@ -72,8 +72,8 @@
                 <div class="row align-items-center justify-content-center">
                     <div class="col-xl-8 col-lg-9 col-md-11 col-sm-12">
                         <div class="secHeading-wrap text-center mb-5">
-                            <h2>Popular Resorts In Sri Lanka</h2>
-                            <p>Cicero famously orated against his political opponent Lucius Sergius Catilina.</p>
+                            <h2>Sri Lanka's Finest Luxury Retreats</h2>
+                            <p>Where palm-fringed shores meet unparalleled hospitality - your dream tropical escape awaits.</p>
                         </div>
                     </div>
                 </div>
@@ -660,7 +660,7 @@
 
 
         <!-- ============================ Video Helps End ================================== -->
-        <section class="bg-cover" style="background:url(assets/img/banner-6.jpg)no-repeat;" data-overlay="5">
+        <section class="bg-cover" style="background:url(https://s1.1zoom.me/b5556/191/Sri_Lanka_Tropics_Coast_Boats_Induruwa_Sand_Palms_528284_2560x1440.jpg)no-repeat;" data-overlay="5">
             <div class="ht-150"></div>
             <div class="container">
                 <div class="row align-items-center justify-content-center">
@@ -682,50 +682,7 @@
 
 
         <!-- ============================ Our Partners =========================== -->
-        <section class="py-5 gray-simple">
-            <div class="container">
-                <div
-                    class="row align-items-center justify-content-center row-cols-lg-6 row-cols-md-5 row-cols-sm-5 row-cols-3 gx-3 gy-3">
-
-                    <div class="col">
-                        <div class="px-2 opacity-75 text-center">
-                            <img src="assets/img/BookingMyFare.png" class="img-fluid" alt="">
-                        </div>
-                    </div>
-
-                    <div class="col">
-                        <div class="px-2 opacity-75 text-center">
-                            <img src="assets/img/siliconradon.png" class="img-fluid" alt="">
-                        </div>
-                    </div>
-
-                    <div class="col">
-                        <div class="px-2 opacity-75 text-center">
-                            <img src="assets/img/itiic.png" class="img-fluid" alt="">
-                        </div>
-                    </div>
-
-                    <div class="col">
-                        <div class="px-2 opacity-75 text-center">
-                            <img src="assets/img/MegaOffers.png" class="img-fluid" alt="">
-                        </div>
-                    </div>
-
-                    <div class="col">
-                        <div class="px-2 opacity-75 text-center">
-                            <img src="assets/img/RoyalHavenwood.png" class="img-fluid" alt="">
-                        </div>
-                    </div>
-
-                    <!-- <div class="col">
-                        <div class="px-2 opacity-75 text-center">
-                            <img src="assets/img/brand/logo-1.png" class="img-fluid" alt="">
-                        </div>
-                    </div> -->
-
-                </div>
-            </div>
-        </section>
+        
         <!-- ============================ Our Partners =========================== -->
 
 

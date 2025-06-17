@@ -5,7 +5,7 @@
   --Heading: #111;
   --Body-Text: #575864;
   --22-c-55-e: #22C55E;
-  --Style:#FF5200;
+  --Style:#3a6ea5;
   --Palette-Green-500: #22C55E;
   --Palette-Blue-Gray-300: #CBD5E1;
   --Palette-Blue-Gray-200: #E2E8F0;
@@ -13,7 +13,7 @@
   --Palette-Blue-200: #BFDBFE;
   --Palette-Orange-400: #FB923C;
   --Palette-Red-400: #F87171;
-  --Palette-Red-500: #EF4444;
+  --Palette-Red-500: #3a6ea5;
   --Input:#ECF0F4;
   --Icon: #CBD5E1;
   --Note: #95989D;
@@ -1393,7 +1393,7 @@ a:hover, a:focus {
   background: #FFE9E0;
 }
 .progress-level-bar.t1 span {
-  background: #FF5200;
+  background: #3a6ea5;
 }
 .progress-level-bar.t2 {
   background: #ECF5FF;
@@ -1440,7 +1440,7 @@ a:hover, a:focus {
   gap: 10px;
   border-radius: 4px;
   background: #FFF2ED;
-  color: #FF5200;
+  color: #3a6ea5;
   font-size: 12px;
   font-weight: 500;
 }
