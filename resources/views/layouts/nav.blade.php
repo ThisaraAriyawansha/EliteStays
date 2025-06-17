@@ -1,64 +1,223 @@
-<div class="header header-dark">
-    <div class="container">
-        <nav id="navigation" class="navigation navigation-landscape">
-            <div class="nav-header">
-                <a class="nav-brand mob-show" href="{{ route('home') }}"><img src="" class="logo" alt="">EliteStays</a>
-                <div class="nav-toggle"></div>
-                <div class="mobile_nav">
-                    <ul>
-                        <li class="currencyDropdown me-2">
-                            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#currencyModal"><span
-                                    class="fw-medium">LKR</span></a>
-                        </li>
-                        <li class="languageDropdown me-2">
-                            <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#countryModal"><img
-                                    src="assets/img/flag/slfag.png" class="img-fluid" width="17" alt="Country"></a>
-                        </li>
-                        <li>
-                            <a href="#" class="bg-light-primary text-primary rounded" data-bs-toggle="modal"
-                                data-bs-target="#login"><i class="fa-regular fa-circle-user fs-6"></i></a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class="nav-menus-wrapper" style="transition-property: none;">
-                <ul class="nav-menu">
+<div class="header" style="border-bottom: 1px solid #e0e6ed;" id="mainNavbar">
+    <div class="container-fluid px-lg-3">
+        <nav class="navbar navbar-expand-lg navbar-light py-0" style="min-height: 10px;">
+            <!-- Brand Logo -->
+            <a class="navbar-brand" href="{{ route('home') }}">
+                <span class="brand-text" style="color: #2a4b7c; font-weight: 600; font-size: 1.1rem;">EliteStays</span>
+            </a>
+            
+            <!-- Mobile Toggle -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" style="padding: 0.25rem 0.5rem;">
+                <span class="navbar-toggler-icon" style="width: 1.2em; height: 1.2em;"></span>
+            </button>
 
-                    <li class="active"><a href="{{ route('home') }}"><i class="fa-solid fa-umbrella-beach me-2"></i>Home</a></li>
-                    <li><a href="{{ route('flights') }}"><i class="fa-solid fa-jet-fighter me-2"></i>Flights</a></li>
-                    <li><a href="{{ route('hotelFilter') }}"><i class="fa-solid fa-spa me-2"></i>Hotels</a></li>
-                    <li><a href="{{ route('property') }}"><i class="fa-solid fa-house-circle-check me-2"></i>Rental</a></li>
-
+            <!-- Navigation Content -->
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <!-- Main Menu -->
+                <ul class="navbar-nav me-auto mb-1 mb-lg-0" style="margin-left: 15px;">
+                    <li class="nav-item">
+                        <a class="nav-link {{ request()->routeIs('home') ? 'active' : '' }}" 
+                           href="{{ route('home') }}" 
+                           style="color: #4a6b8a; padding: 6px 10px; font-size: 0.8rem;">
+                           <i class="fa-solid fa-home me-1" style="font-size: 0.75rem;"></i> Home
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link {{ request()->routeIs('flights') ? 'active' : '' }}" 
+                           href="{{ route('flights') }}" 
+                           style="color: #4a6b8a; padding: 6px 10px; font-size: 0.8rem;">
+                           <i class="fa-solid fa-plane me-1" style="font-size: 0.75rem;"></i> Flights
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link {{ request()->routeIs('hotelFilter') ? 'active' : '' }}" 
+                           href="{{ route('hotelFilter') }}" 
+                           style="color: #4a6b8a; padding: 6px 10px; font-size: 0.8rem;">
+                           <i class="fa-solid fa-hotel me-1" style="font-size: 0.75rem;"></i> Hotels
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link {{ request()->routeIs('property') ? 'active' : '' }}" 
+                           href="{{ route('property') }}" 
+                           style="color: #4a6b8a; padding: 6px 10px; font-size: 0.8rem;">
+                           <i class="fa-solid fa-house-user me-1" style="font-size: 0.75rem;"></i> Rentals
+                        </a>
+                    </li>
                 </ul>
 
-                <ul class="nav-menu nav-menu-social align-to-right">
-                    <li class="currencyDropdown me-2">
-                        <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#currencyModal"><span
-                                class="fw-medium">LKR</span></a>
-                    </li>
-                    <li class="languageDropdown me-2">
-                        <a href="#" class="nav-link" data-bs-toggle="modal" data-bs-target="#countryModal"><img
-                                src="assets/img/flag/slfag.png" class="img-fluid" width="17" alt="Country"></a>
-                    </li>
+                <!-- Right Side Elements -->
+                <div class="d-flex align-items-center">
+                    <!-- Language Selector -->
+                    <div class="dropdown me-2">
+                        <a class="btn btn-sm dropdown-toggle py-0 px-2" 
+                           href="#" 
+                           role="button" 
+                           id="languageDropdown" 
+                           data-bs-toggle="dropdown"
+                           style="color: #4a6b8a; border: 1px solid #d1d9e6; background: white; font-size: 0.75rem;">
+                           <img src="assets/img/flag/FlagUK.webp" width="14" class="me-1">
+                           <span class="d-none d-md-inline">English</span>
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            <li><a class="dropdown-item" href="#" style="font-size: 0.8rem;">English</a></li>
+                            <li><a class="dropdown-item" href="#" style="font-size: 0.8rem;">සිංහල</a></li>
+                            <li><a class="dropdown-item" href="#" style="font-size: 0.8rem;">தமிழ்</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Currency Selector -->
+                    <div class="dropdown me-2">
+                        <a class="btn btn-sm dropdown-toggle py-0 px-2" 
+                           href="#" 
+                           role="button" 
+                           id="currencyDropdown" 
+                           data-bs-toggle="dropdown"
+                           style="color: #4a6b8a; border: 1px solid #d1d9e6; background: white; font-size: 0.75rem;">
+                           <i class="fa-solid fa-dollar-sign me-1" style="font-size: 0.7rem;"></i>
+                           <span class="d-none d-md-inline">USD</span>
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            <li><a class="dropdown-item" href="#" style="font-size: 0.8rem;">LKR - Sri Lankan Rupee</a></li>
+                            <li><a class="dropdown-item" href="#" style="font-size: 0.8rem;">USD - US Dollar</a></li>
+                            <li><a class="dropdown-item" href="#" style="font-size: 0.8rem;">EUR - Euro</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- User Account -->
                     @if (session('customer'))
-                        <li class="list-buttons light">
-                            <a href="{{ route('customer.profile') }}" class="bg-light-primary text-primary rounded">
-                                <i class="fa-regular fa-user fs-6 me-2"></i>Profile
+                        <div class="dropdown">
+                        <a class="btn-log dropdown-toggle py-0 px-2"
+                            href="#"
+                            role="button"
+                            id="userDropdown"
+                            data-bs-toggle="dropdown">
+                            <i class="fa-regular fa-user me-1" style="font-size: 0.7rem;"></i>
+                            <span class="d-none d-md-inline">Account</span>
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            <li>
+                            <a class="dropdown-item" href="{{ route('customer.profile') }}" style="font-size: 0.8rem;">
+                                <i class="fa-regular fa-user me-2" style="font-size: 0.7rem;"></i>Profile
                             </a>
-                        </li>
+                            </li>
+                        </ul>
+                        </div>
+
                     @else
-                        <li class="list-buttons light">
-                            <a href="#" data-bs-toggle="modal" data-bs-target="#login">
-                                <i class="fa-regular fa-circle-user fs-6 me-2"></i>Sign In / Register
-                            </a>
-                        </li>
+                        <a href="#" 
+                           class="btn-log py-0 px-2" 
+                           data-bs-toggle="modal" 
+                           data-bs-target="#login"
+                           style="background-color: #3a6ea5; border: none; border-radius: 4px; font-size: 0.75rem;">
+                           <i class="fa-regular fa-circle-user me-1" style="font-size: 0.7rem;"></i>
+                           <span class="d-none d-md-inline">Sign In</span>
+                        </a>
                     @endif
-                </ul>
+                </div>
             </div>
         </nav>
     </div>
 </div>
 
+<style>
+    .header {
+        background-color: transparent !important;
+        transition: background-color 0.3s ease;
+    }
+    
+    /* Scrolled state */
+    .header.scrolled {
+        background-color: #f8f9fa !important;
+    }
+
+    /* Active state for nav items */
+    .nav-link.active {
+        color: #2a4b7c !important;
+        font-weight: 500;
+        position: relative;
+    }
+    
+    .nav-link.active:after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 10px;
+        right: 10px;
+        height: 2px;
+        background-color: #3a6ea5;
+    }
+    
+    /* Hover effects */
+    .nav-link:hover {
+        color: #2a4b7c !important;
+    }
+    
+    .dropdown-item:hover {
+        background-color: #f0f4f9;
+        color: #2a4b7c;
+    }
+
+        .btn-log {
+        color: white;
+        background-color: #3a6ea5; /* Default blue */
+        padding: 0.75rem 1.5rem; /* Increased padding */
+        font-size: 0.75rem;
+        border: none;
+        border-radius: 4px;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+        transition: background-color 0.3s ease;
+          padding: 0 1.1rem; /* horizontal padding only */
+            line-height: 35px; /* vertically center text */
+        }
+
+        .btn-log:hover {
+        background-color:rgb(76, 137, 203);
+        }
+
+        @media (min-width: 768px) {
+        .btn-log {
+            font-size: 0.9rem;
+            padding: 0.6rem 1.2rem;
+        }
+        }
+
+
+    
+    /* Mobile view adjustments */
+    @media (max-width: 991.98px) {
+        #navbarContent {
+            padding: 8px;
+            background-color: white;
+            border-radius: 4px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            margin-top: 6px;
+        }
+        
+        .navbar-nav {
+            margin-left: 0 !important;
+            margin-bottom: 8px !important;
+        }
+        
+        .nav-item {
+            margin-bottom: 2px;
+        }
+        
+        .d-flex {
+            flex-direction: column;
+            align-items: flex-start !important;
+        }
+        
+        .dropdown {
+            margin-bottom: 6px;
+            width: 100%;
+        }
+        
+        .dropdown-toggle {
+            width: 100%;
+            text-align: left;
+        }
+    }
+</style>
 
 <div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="loginmodal" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered login-pop-form" role="document">
@@ -135,3 +294,19 @@
         </div>
     </div>
 </div>
+
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const navbar = document.getElementById('mainNavbar');
+        const scrollThreshold = window.innerHeight * 0.5; // 50% of viewport height
+        
+        window.addEventListener('scroll', function() {
+            if (window.scrollY > scrollThreshold) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+    });
+</script>
