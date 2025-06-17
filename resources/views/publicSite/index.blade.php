@@ -500,162 +500,211 @@
 
         <!-- ============================ Best Locations Design Start ================================== -->
         <section>
-            <div class="container">
-
-                <div class="row align-items-center justify-content-center">
-                    <div class="col-xl-8 col-lg-9 col-md-11 col-sm-12">
-                        <div class="secHeading-wrap text-center mb-5">
-                            <h2>Trending destinations</h2>
-                            <p>Travellers searching for Sri Lanka also booked these.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row justify-content-center gy-4 gx-3">
-
-                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
-                        <div class="cardCities cursor rounded-2">
-                            <div class="cardCities-image ratio ratio-4">
-                                <img src="assets/img/city/colombo.jpg" class="img-fluid object-fit" alt="image">
-                            </div>
-
-                            <div class="citiesCard-content d-flex flex-column justify-content-between text-center px-4 py-4">
-                                <div class="cardCities-bg"></div>
-
-                                <div class="citiesCard-topcaps">
-                                    <div class="d-flex align-items-center justify-content-center flex-wrap">
-                                        <div class="bg-transparents text-light text-xs rounded fw-medium p-2 m-1">10 Hotels</div>
-                                        <div class="bg-transparents text-light text-xs rounded fw-medium p-2 m-1">25 Flights</div>
-                                        <div class="bg-transparents text-light text-xs rounded fw-medium p-2 m-1">17 Cars</div>
-                                        <div class="bg-transparents text-light text-xs rounded fw-medium p-2 m-1">22 Tours</div>
-                                        <div class="bg-transparents text-light text-xs rounded fw-medium p-2 m-1">36 Activities</div>
-                                    </div>
-                                </div>
-
-                                <div class="citiesCard-bottomcaps">
-                                    <h4 class="text-light fs-3 mb-3">Colombo</h4>
-                                    <button class="btn btn-whitener full-width fw-medium">Discover<i
-                                            class="fa-solid fa-arrow-trend-up ms-2"></i></button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
-                        <div class="cardCities cursor rounded-2">
-                            <div class="cardCities-image ratio ratio-4">
-                                <img src="assets/img/city/kandy.jpg" class="img-fluid object-fit" alt="image">
-                            </div>
-
-                            <div class="citiesCard-content d-flex flex-column justify-content-between text-center px-4 py-4">
-                                <div class="cardCities-bg"></div>
-
-                                <div class="citiesCard-topcaps">
-                                    <div class="d-flex align-items-center justify-content-center flex-wrap">
-                                        <div class="bg-transparents text-light text-xs rounded fw-medium p-2 m-1">10 Hotels</div>
-                                        <div class="bg-transparents text-light text-xs rounded fw-medium p-2 m-1">25 Flights</div>
-                                        <div class="bg-transparents text-light text-xs rounded fw-medium p-2 m-1">17 Cars</div>
-                                        <div class="bg-transparents text-light text-xs rounded fw-medium p-2 m-1">22 Tours</div>
-                                        <div class="bg-transparents text-light text-xs rounded fw-medium p-2 m-1">36 Activities</div>
-                                    </div>
-                                </div>
-
-                                <div class="citiesCard-bottomcaps">
-                                    <h4 class="text-light fs-3 mb-3">Kandy</h4>
-                                    <button class="btn btn-whitener full-width fw-medium">Discover<i
-                                            class="fa-solid fa-arrow-trend-up ms-2"></i></button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
-                        <div class="cardCities cursor rounded-2">
-                            <div class="cardCities-image ratio ratio-4">
-                                <img src="assets/img/city/ella.jpg" class="img-fluid object-fit" alt="image">
-                            </div>
-
-                            <div class="citiesCard-content d-flex flex-column justify-content-between text-center px-4 py-4">
-                                <div class="cardCities-bg"></div>
-
-                                <div class="citiesCard-topcaps">
-                                    <div class="d-flex align-items-center justify-content-center flex-wrap">
-                                        <div class="bg-transparents text-light text-xs rounded fw-medium p-2 m-1">10 Hotels</div>
-                                        <div class="bg-transparents text-light text-xs rounded fw-medium p-2 m-1">25 Flights</div>
-                                        <div class="bg-transparents text-light text-xs rounded fw-medium p-2 m-1">17 Cars</div>
-                                        <div class="bg-transparents text-light text-xs rounded fw-medium p-2 m-1">22 Tours</div>
-                                        <div class="bg-transparents text-light text-xs rounded fw-medium p-2 m-1">36 Activities</div>
-                                    </div>
-                                </div>
-
-                                <div class="citiesCard-bottomcaps">
-                                    <h4 class="text-light fs-3 mb-3">Ella</h4>
-                                    <button class="btn btn-whitener full-width fw-medium">Discover<i
-                                            class="fa-solid fa-arrow-trend-up ms-2"></i></button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
-                        <div class="cardCities cursor rounded-2">
-                            <div class="cardCities-image ratio ratio-4">
-                                <img src="assets/img/city/negombo.jpeg" class="img-fluid object-fit" alt="image">
-                            </div>
-
-                            <div class="citiesCard-content d-flex flex-column justify-content-between text-center px-4 py-4">
-                                <div class="cardCities-bg"></div>
-
-                                <div class="citiesCard-topcaps">
-                                    <div class="d-flex align-items-center justify-content-center flex-wrap">
-                                        <div class="bg-transparents text-light text-xs rounded fw-medium p-2 m-1">10 Hotels</div>
-                                        <div class="bg-transparents text-light text-xs rounded fw-medium p-2 m-1">25 Flights</div>
-                                        <div class="bg-transparents text-light text-xs rounded fw-medium p-2 m-1">17 Cars</div>
-                                        <div class="bg-transparents text-light text-xs rounded fw-medium p-2 m-1">22 Tours</div>
-                                        <div class="bg-transparents text-light text-xs rounded fw-medium p-2 m-1">36 Activities</div>
-                                    </div>
-                                </div>
-
-                                <div class="citiesCard-bottomcaps">
-                                    <h4 class="text-light fs-3 mb-3">Negombo</h4>
-                                    <button class="btn btn-whitener full-width fw-medium">Discover<i
-                                            class="fa-solid fa-arrow-trend-up ms-2"></i></button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
-                        <div class="cardCities cursor rounded-2">
-                            <div class="cardCities-image ratio ratio-4">
-                                <img src="assets/img/city/sigiriya.jpg" class="img-fluid object-fit" alt="image">
-                            </div>
-
-                            <div class="citiesCard-content d-flex flex-column justify-content-between text-center px-4 py-4">
-                                <div class="cardCities-bg"></div>
-
-                                <div class="citiesCard-topcaps">
-                                    <div class="d-flex align-items-center justify-content-center flex-wrap">
-                                        <div class="bg-transparents text-light text-xs rounded fw-medium p-2 m-1">10 Hotels</div>
-                                        <div class="bg-transparents text-light text-xs rounded fw-medium p-2 m-1">25 Flights</div>
-                                        <div class="bg-transparents text-light text-xs rounded fw-medium p-2 m-1">17 Cars</div>
-                                        <div class="bg-transparents text-light text-xs rounded fw-medium p-2 m-1">22 Tours</div>
-                                        <div class="bg-transparents text-light text-xs rounded fw-medium p-2 m-1">36 Activities</div>
-                                    </div>
-                                </div>
-
-                                <div class="citiesCard-bottomcaps">
-                                    <h4 class="text-light fs-3 mb-3">Sigiriya</h4>
-                                    <button class="btn btn-whitener full-width fw-medium">Discover<i
-                                            class="fa-solid fa-arrow-trend-up ms-2"></i></button>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
+    <div class="container">
+        <div class="row align-items-center justify-content-center">
+            <div class="col-xl-8 col-lg-9 col-md-11 col-sm-12">
+                <div class="secHeading-wrap text-center mb-5">
+                    <h2>Trending destinations</h2>
+                    <p>Travellers searching for Sri Lanka also booked these.</p>
                 </div>
             </div>
-        </section>
+        </div>
+
+        <div class="row justify-content-center gy-4 gx-3">
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                <div class="cardCities cursor rounded-2">
+                    <div class="cardCities-image ratio ratio-4">
+                        <img src="assets/img/city/colombo.jpg" class="img-fluid object-fit" alt="image">
+                    </div>
+                    <div class="citiesCard-content d-flex flex-column justify-content-between text-center px-4 py-4">
+                        <div class="cardCities-bg"></div>
+                        <div class="citiesCard-topcaps">
+                            <div class="d-flex align-items-center justify-content-center flex-wrap">
+                                <div class="bg-transparents text-light text-xs rounded fw-medium p-2 m-1">10 Hotels</div>
+                                <div class="bg-transparents text-light text-xs rounded fw-medium p-2 m-1">25 Flights</div>
+                                <div class="bg-transparents text-light text-xs rounded fw-medium p-2 m-1">17 Cars</div>
+                                <div class="bg-transparents text-light text-xs rounded fw-medium p-2 m-1">22 Tours</div>
+                                <div class="bg-transparents text-light text-xs rounded fw-medium p-2 m-1">36 Activities</div>
+                            </div>
+                        </div>
+                        <div class="citiesCard-bottomcaps">
+                            <h4 class="text-light fs-3 mb-3">Colombo</h4>
+                            <button class="btn btn-whitener full-width fw-medium">Discover<i class="fa-solid fa-arrow-trend-up ms-2"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                <div class="cardCities cursor rounded-2">
+                    <div class="cardCities-image ratio ratio-4">
+                        <img src="assets/img/city/kandy.jpg" class="img-fluid object-fit" alt="image">
+                    </div>
+                    <div class="citiesCard-content d-flex flex-column justify-content-between text-center px-4 py-4">
+                        <div class="cardCities-bg"></div>
+                        <div class="citiesCard-topcaps">
+                            <div class="d-flex align-items-center justify-content-center flex-wrap">
+                                <div class="bg-transparents text-light text-xs rounded fw-medium p-2 m-1">10 Hotels</div>
+                                <div class="bg-transparents text-light text-xs rounded fw-medium p-2 m-1">25 Flights</div>
+                                <div class="bg-transparents text-light text-xs rounded fw-medium p-2 m-1">17 Cars</div>
+                                <div class="bg-transparents text-light text-xs rounded fw-medium p-2 m-1">22 Tours</div>
+                                <div class="bg-transparents text-light text-xs rounded fw-medium p-2 m-1">36 Activities</div>
+                            </div>
+                        </div>
+                        <div class="citiesCard-bottomcaps">
+                            <h4 class="text-light fs-3 mb-3">Kandy</h4>
+                            <button class="btn btn-whitener full-width fw-medium">Discover<i class="fa-solid fa-arrow-trend-up ms-2"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                <div class="cardCities cursor rounded-2">
+                    <div class="cardCities-image ratio ratio-4">
+                        <img src="assets/img/city/ella.jpg" class="img-fluid object-fit" alt="image">
+                    </div>
+                    <div class="citiesCard-content d-flex flex-column justify-content-between text-center px-4 py-4">
+                        <div class="cardCities-bg"></div>
+                        <div class="citiesCard-topcaps">
+                            <div class="d-flex align-items-center justify-content-center flex-wrap">
+                                <div class="bg-transparents text-light text-xs rounded fw-medium p-2 m-1">10 Hotels</div>
+                                <div class="bg-transparents text-light text-xs rounded fw-medium p-2 m-1">25 Flights</div>
+                                <div class="bg-transparents text-light text-xs rounded fw-medium p-2 m-1">17 Cars</div>
+                                <div class="bg-transparents text-light text-xs rounded fw-medium p-2 m-1">22 Tours</div>
+                                <div class="bg-transparents text-light text-xs rounded fw-medium p-2 m-1">36 Activities</div>
+                            </div>
+                        </div>
+                        <div class="citiesCard-bottomcaps">
+                            <h4 class="text-light fs-3 mb-3">Ella</h4>
+                            <button class="btn btn-whitener full-width fw-medium">Discover<i class="fa-solid fa-arrow-trend-up ms-2"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                <div class="cardCities cursor rounded-2">
+                    <div class="cardCities-image ratio ratio-4">
+                        <img src="https://mugunthanb56.sg-host.com/wp-content/uploads/2021/11/inner-banner_Mob_Negombo-Beach-720x720-1-1.jpg" class="img-fluid object-fit" alt="image">
+                    </div>
+                    <div class="citiesCard-content d-flex flex-column justify-content-between text-center px-4 py-4">
+                        <div class="cardCities-bg"></div>
+                        <div class="citiesCard-topcaps">
+                            <div class="d-flex align-items-center justify-content-center flex-wrap">
+                                <div class="bg-transparents text-light text-xs rounded fw-medium p-2 m-1">10 Hotels</div>
+                                <div class="bg-transparents text-light text-xs rounded fw-medium p-2 m-1">25 Flights</div>
+                                <div class="bg-transparents text-light text-xs rounded fw-medium p-2 m-1">17 Cars</div>
+                                <div class="bg-transparents text-light text-xs rounded fw-medium p-2 m-1">22 Tours</div>
+                                <div class="bg-transparents text-light text-xs rounded fw-medium p-2 m-1">36 Activities</div>
+                            </div>
+                        </div>
+                        <div class="citiesCard-bottomcaps">
+                            <h4 class="text-light fs-3 mb-3">Negombo</h4>
+                            <button class="btn btn-whitener full-width fw-medium">Discover<i class="fa-solid fa-arrow-trend-up ms-2"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                <div class="cardCities cursor rounded-2">
+                    <div class="cardCities-image ratio ratio-4">
+                        <img src="assets/img/city/sigiriya.jpg" class="img-fluid object-fit" alt="image">
+                    </div>
+                    <div class="citiesCard-content d-flex flex-column justify-content-between text-center px-4 py-4">
+                        <div class="cardCities-bg"></div>
+                        <div class="citiesCard-topcaps">
+                            <div class="d-flex align-items-center justify-content-center flex-wrap">
+                                <div class="bg-transparents text-light text-xs rounded fw-medium p-2 m-1">10 Hotels</div>
+                                <div class="bg-transparents text-light text-xs rounded fw-medium p-2 m-1">25 Flights</div>
+                                <div class="bg-transparents text-light text-xs rounded fw-medium p-2 m-1">17 Cars</div>
+                                <div class="bg-transparents text-light text-xs rounded fw-medium p-2 m-1">22 Tours</div>
+                                <div class="bg-transparents text-light text-xs rounded fw-medium p-2 m-1">36 Activities</div>
+                            </div>
+                        </div>
+                        <div class="citiesCard-bottomcaps">
+                            <h4 class="text-light fs-3 mb-3">Sigiriya</h4>
+                            <button class="btn btn-whitener full-width fw-medium">Discover<i class="fa-solid fa-arrow-trend-up ms-2"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                <div class="cardCities cursor rounded-2">
+                    <div class="cardCities-image ratio ratio-4">
+                        <img src="https://mugunthanb56.sg-host.com/wp-content/uploads/2021/11/inner-banner_Mob_Galle-Fort-Walking-Tour-720x720-1.jpg" class="img-fluid object-fit" alt="image">
+                    </div>
+                    <div class="citiesCard-content d-flex flex-column justify-content-between text-center px-4 py-4">
+                        <div class="cardCities-bg"></div>
+                        <div class="citiesCard-topcaps">
+                            <div class="d-flex align-items-center justify-content-center flex-wrap">
+                                <div class="bg-transparents text-light text-xs rounded fw-medium p-2 m-1">12 Hotels</div>
+                                <div class="bg-transparents text-light text-xs rounded fw-medium p-2 m-1">20 Flights</div>
+                                <div class="bg-transparents text-light text-xs rounded fw-medium p-2 m-1">15 Cars</div>
+                                <div class="bg-transparents text-light text-xs rounded fw-medium p-2 m-1">30 Tours</div>
+                                <div class="bg-transparents text-light text-xs rounded fw-medium p-2 m-1">40 Activities</div>
+                            </div>
+                        </div>
+                        <div class="citiesCard-bottomcaps">
+                            <h4 class="text-light fs-3 mb-3">Galle</h4>
+                            <button class="btn btn-whitener full-width fw-medium">Discover<i class="fa-solid fa-arrow-trend-up ms-2"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                <div class="cardCities cursor rounded-2">
+                    <div class="cardCities-image ratio ratio-4">
+                        <img src="https://i0.wp.com/srilankatravelandtourism.com/blog/wp-content/uploads/2024/03/Nuwara-Eliya-Sri-Lanka.jpeg?fit=1080%2C1080&ssl=1" class="img-fluid object-fit" alt="image">
+                    </div>
+                    <div class="citiesCard-content d-flex flex-column justify-content-between text-center px-4 py-4">
+                        <div class="cardCities-bg"></div>
+                        <div class="citiesCard-topcaps">
+                            <div class="d-flex align-items-center justify-content-center flex-wrap">
+                                <div class="bg-transparents text-light text-xs rounded fw-medium p-2 m-1">8 Hotels</div>
+                                <div class="bg-transparents text-light text-xs rounded fw-medium p-2 m-1">15 Flights</div>
+                                <div class="bg-transparents text-light text-xs rounded fw-medium p-2 m-1">10 Cars</div>
+                                <div class="bg-transparents text-light text-xs rounded fw-medium p-2 m-1">18 Tours</div>
+                                <div class="bg-transparents text-light text-xs rounded fw-medium p-2 m-1">25 Activities</div>
+                            </div>
+                        </div>
+                        <div class="citiesCard-bottomcaps">
+                            <h4 class="text-light fs-3 mb-3">Nuwara Eliya</h4>
+                            <button class="btn btn-whitener full-width fw-medium">Discover<i class="fa-solid fa-arrow-trend-up ms-2"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
+                <div class="cardCities cursor rounded-2">
+                    <div class="cardCities-image ratio ratio-4">
+                        <img src="https://www.stokedtotravel.com/wp-content/uploads/2019/05/IMG_6106-1000x750.jpg" class="img-fluid object-fit" alt="image">
+                    </div>
+                    <div class="citiesCard-content d-flex flex-column justify-content-between text-center px-4 py-4">
+                        <div class="cardCities-bg"></div>
+                        <div class="citiesCard-topcaps">
+                            <div class="d-flex align-items-center justify-content-center flex-wrap">
+                                <div class="bg-transparents text-light text-xs rounded fw-medium p-2 m-1">15 Hotels</div>
+                                <div class="bg-transparents text-light text-xs rounded fw-medium p-2 m-1">22 Flights</div>
+                                <div class="bg-transparents text-light text-xs rounded fw-medium p-2 m-1">12 Cars</div>
+                                <div class="bg-transparents text-light text-xs rounded fw-medium p-2 m-1">28 Tours</div>
+                                <div class="bg-transparents text-light text-xs rounded fw-medium p-2 m-1">33 Activities</div>
+                            </div>
+                        </div>
+                        <div class="citiesCard-bottomcaps">
+                            <h4 class="text-light fs-3 mb-3">Bentota</h4>
+                            <button class="btn btn-whitener full-width fw-medium">Discover<i class="fa-solid fa-arrow-trend-up ms-2"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
         <!-- ============================ Best Locations Design Start ================================== -->
 
 
