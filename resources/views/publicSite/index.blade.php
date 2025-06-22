@@ -381,23 +381,16 @@
 
 
         <!-- ============================ Video Helps End ================================== -->
-        <section class="bg-cover" style="background:url(https://s1.1zoom.me/b5556/191/Sri_Lanka_Tropics_Coast_Boats_Induruwa_Sand_Palms_528284_2560x1440.jpg)no-repeat;" data-overlay="5">
-            <div class="ht-150"></div>
+        <section class="bg-cover" style="background:url(https://s1.1zoom.me/b5556/191/Sri_Lanka_Tropics_Coast_Boats_Induruwa_Sand_Palms_528284_2560x1440.jpg) no-repeat; height: 50vh; position: relative;" data-overlay="5">
             <div class="container">
                 <div class="row align-items-center justify-content-center">
                     <div class="col-xl-12 col-lg-12 col-md-12">
-
                         <div class="video-play-wrap text-center">
-                            <div class="video-play-btn d-flex align-items-center justify-content-center">
-                                <a href="https://www.youtube.com/watch?v=A8EI6JaFbv4" data-bs-toggle="modal" data-bs-target="#popup-video" class="square--90 circle bg-white fs-2 text-primary"><i class="fa-solid fa-play"></i></a>
 
-                            </div>
                         </div>
-
                     </div>
                 </div>
             </div>
-            <div class="ht-150"></div>
         </section>
         <!-- ============================ Video Helps End ================================== -->
 
@@ -414,7 +407,7 @@
                 <div class="row align-items-center justify-content-center">
                     <div class="col-xl-8 col-lg-9 col-md-11 col-sm-12">
                         <div class="secHeading-wrap text-center mb-5">
-                            <h2>Why Move To BoomBitz</h2>
+                            <h2>Why Move To EliteStays</h2>
                             <p>Cicero famously orated against his political opponent Lucius Sergius Catilina.</p>
                         </div>
                     </div>
@@ -424,7 +417,7 @@
 
                     <div class="col-xl-5 col-lg-5 col-md-6">
                         <div class="position-relative">
-                            <img src="assets/img/img-1.png" class="img-fluid rounded-3 position-relative z-1" alt="">
+                            <img src="assets/img/bbbbb.webp" class="img-fluid rounded-3 position-relative z-1" alt="">
                         </div>
 
                     </div>
@@ -483,119 +476,66 @@
 
         <!-- ================================ Article Section Start ======================================= -->
         <section class="pt-1">
-            <div class="container">
+    <div class="container">
 
-                <div class="row align-items-center justify-content-center">
-                    <div class="col-xl-8 col-lg-9 col-md-11 col-sm-12">
-                        <div class="secHeading-wrap text-center mb-5">
-                            <h2>Trending & Popular Articles</h2>
-                            <p>Cicero famously orated against his political opponent Lucius Sergius Catilina.</p>
-                        </div>
-                    </div>
-                </div>
-
-
-                <div class="row justify-content-center g-4">
-
-                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-                        <div class="blogGrid-wrap d-flex flex-column h-100">
-                            <div class="blogGrid-pics">
-                                <a href="#" class="d-block"><img src="assets/img/blog-1.jpg" class="img-fluid rounded" alt="Blog image"></a>
-                            </div>
-                            <div class="blogGrid-caps pt-3">
-                                <div class="d-flex align-items-center mb-1"><span
-                                        class="label text-success bg-light-success">Destination</span></div>
-                                <h4 class="fw-bold fs-6 lh-base"><a href="#" class="text-dark">Make Your Next Journey Delhi To Paris in
-                                        Comfirtable And Best Price</a></h4>
-                                <p class="mb-3">Think of a news blog that's filled with content hourly on the Besides, random text risks
-                                    to be unintendedly humorous or offensive day of going live.</p>
-                                <a class="text-primary fw-medium" href="#">Read More<i class="fa-solid fa-arrow-trend-up ms-2"></i></a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-                        <div class="blogGrid-wrap d-flex flex-column h-100">
-                            <div class="blogGrid-pics">
-                                <a href="#" class="d-block"><img src="assets/img/blog-2.jpg" class="img-fluid rounded" alt="Blog image"></a>
-                            </div>
-                            <div class="blogGrid-caps pt-3">
-                                <div class="d-flex align-items-center mb-1"><span
-                                        class="label text-success bg-light-success">Journey</span></div>
-                                <h4 class="fw-bold fs-6 lh-base"><a href="#" class="text-dark">Make Your Next Journey Delhi To Paris in
-                                        Comfirtable And Best Price</a></h4>
-                                <p class="mb-3">Think of a news blog that's filled with content hourly on the Besides, random text risks
-                                    to be unintendedly humorous or offensive day of going live.</p>
-                                <a class="text-primary fw-medium" href="#">Read More<i class="fa-solid fa-arrow-trend-up ms-2"></i></a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
-                        <div class="blogGrid-wrap d-flex flex-column h-100">
-                            <div class="blogGrid-pics">
-                                <a href="#" class="d-block"><img src="assets/img/blog-3.jpg" class="img-fluid rounded" alt="Blog image"></a>
-                            </div>
-                            <div class="blogGrid-caps pt-3">
-                                <div class="d-flex align-items-center mb-1"><span
-                                        class="label text-success bg-light-success">Business</span></div>
-                                <h4 class="fw-bold fs-6 lh-base"><a href="#" class="text-dark">Make Your Next Journey Delhi To Paris in
-                                        Comfirtable And Best Price</a></h4>
-                                <p class="mb-3">Think of a news blog that's filled with content hourly on the Besides, random text risks
-                                    to be unintendedly humorous or offensive day of going live.</p>
-                                <a class="text-primary fw-medium" href="#">Read More<i class="fa-solid fa-arrow-trend-up ms-2"></i></a>
-                            </div>
-                        </div>
-                    </div>
-
+        <div class="row align-items-center justify-content-center">
+            <div class="col-xl-8 col-lg-9 col-md-11 col-sm-12">
+                <div class="secHeading-wrap text-center mb-5">
+                    <h2>Explore Sri Lanka's Treasures</h2>
+                    <p>Discover the vibrant culture, stunning landscapes, and rich history of Sri Lanka.</p>
                 </div>
             </div>
-        </section>
+        </div>
+
+        <div class="row justify-content-center g-4">
+
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                <div class="blogGrid-wrap d-flex flex-column h-100">
+                    <div class="blogGrid-pics">
+                        <a href="#" class="d-block"><img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e" class="img-fluid rounded" alt="Sigiriya Rock"></a>
+                    </div>
+                    <div class="blogGrid-caps pt-3">
+                        <div class="d-flex align-items-center mb-1"><span class="label text-success bg-light-success">History</span></div>
+                        <h4 class="fw-bold fs-6 lh-base"><a href="#" class="text-dark">Climb Sigiriya: The Ancient Rock Fortress</a></h4>
+                        <p class="mb-3">Explore the majestic Sigiriya, a UNESCO World Heritage Site, offering breathtaking views and a glimpse into Sri Lanka's ancient past.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                <div class="blogGrid-wrap d-flex flex-column h-100">
+                    <div class="blogGrid-pics">
+                        <a href="#" class="d-block"><img src="https://images.unsplash.com/photo-1516026672322-bc52d61a55d5" class="img-fluid rounded" alt="Ella Tea Plantations"></a>
+                    </div>
+                    <div class="blogGrid-caps pt-3">
+                        <div class="d-flex align-items-center mb-1"><span class="label text-success bg-light-success">Nature</span></div>
+                        <h4 class="fw-bold fs-6 lh-base"><a href="#" class="text-dark">Wander Through Ella's Lush Tea Plantations</a></h4>
+                        <p class="mb-3">Experience the serene beauty of Ella, where rolling tea estates and scenic trails create a perfect escape into nature.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                <div class="blogGrid-wrap d-flex flex-column h-100">
+                    <div class="blogGrid-pics">
+                        <a href="#" class="d-block"><img src="https://do6raq9h04ex.cloudfront.net/sites/8/2021/07/galle-fort-1050x700-1.jpg" class="img-fluid rounded" alt="Galle Fort"></a>
+                    </div>
+                    <div class="blogGrid-caps pt-3">
+                        <div class="d-flex align-items-center mb-1"><span class="label text-success bg-light-success">Culture</span></div>
+                        <h4 class="fw-bold fs-6 lh-base"><a href="#" class="text-dark">Discover the Charm of Galle Fort</a></h4>
+                        <p class="mb-3">Stroll through the historic Galle Fort, a blend of colonial architecture and vibrant local culture, perfect for history enthusiasts.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
         <!-- ================================ Article Section Start ======================================= -->
 
 
         <!-- ============================ Call To Action Start ================================== -->
-        <div class="position-relative bg-cover bg-primary" style="background:url(assets/img/bg.jpg)no-repeat;" data-overlay="5">
-            <div class="container">
-                <div class="row align-items-center justify-content-between">
-                    <div class="col-xl-12 col-lg-12 col-md-12">
-                        <div class="calltoAction-wraps position-relative py-5 px-4">
-                            <div class="ht-40"></div>
-                            <div class="row align-items-center justify-content-center">
-                                <div class="col-xl-8 col-lg-9 col-md-10 col-sm-11 text-center">
-
-                                    <div class="calltoAction-title mb-5">
-                                        <h4 class="text-light fs-2 fw-bold lh-base m-0">Subscribe & Get<br>Special Discount with BoomBitz
-                                        </h4>
-                                    </div>
-                                    <div class="newsletter-forms mt-md-0 mt-4">
-                                        <form>
-                                            <div class="row align-items-center justify-content-between bg-white rounded-3 p-2 gx-0">
-
-                                                <div class="col-xl-9 col-lg-8 col-md-8">
-                                                    <div class="form-group m-0">
-                                                        <input type="text" class="form-control bold ps-1 border-0" placeholder="Enter Your Mail!">
-                                                    </div>
-                                                </div>
-                                                <div class="col-xl-3 col-lg-4 col-md-4">
-                                                    <div class="form-group m-0">
-                                                        <button type="button" class="btn btn-primary fw-medium full-width">Submit<i
-                                                                class="fa-solid fa-arrow-trend-up ms-2"></i></button>
-                                                    </div>
-                                                </div>
-
-                                            </div>
-                                        </form>
-                                    </div>
-
-                                </div>
-                            </div>
-                            <div class="ht-40"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+        
         <!-- ============================ Call To Action Start ================================== -->
 
 
@@ -609,412 +549,7 @@
         <!-- End Modal -->
 
         <!-- Choose Currency Modal -->
-        <!-- <div class="modal modal-lg fade" id="currencyModal" tabindex="-1" aria-labelledby="currenyModalLabel"
-            aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h4 class="modal-title fs-6" id="currenyModalLabel">Select Your Currency</h4>
-                        <a href="#" class="text-muted fs-4" data-bs-dismiss="modal" aria-label="Close"><i
-                                class="fa-solid fa-square-xmark"></i></a>
-                    </div>
-                    <div class="modal-body">
-                        <div class="allCurrencylist">
-
-                            <div class="suggestedCurrencylist-wrap mb-4">
-                                <div class="d-inline-block mb-0 ps-3">
-                                    <h5 class="fs-6 fw-bold">Suggested Currency For you</h5>
-                                </div>
-                                <div class="suggestedCurrencylists">
-                                    <ul
-                                        class="row align-items-center justify-content-start row-cols-xl-4 row-cols-lg-3 row-cols-md-2 row-cols-2 gy-2 gx-3 m-0 p-0">
-                                        <li class="col">
-                                            <a class="selectCurrency" href="#">
-                                                <div class="text-dark text-md fw-medium">United State Dollar</div>
-                                                <div class="text-muted-2 text-md text-uppercase">USD</div>
-                                            </a>
-                                        </li>
-                                        <li class="col">
-                                            <a class="selectCurrency" href="#">
-                                                <div class="text-dark text-md fw-medium">Pound Sterling</div>
-                                                <div class="text-muted-2 text-md text-uppercase">GBP</div>
-                                            </a>
-                                        </li>
-                                        <li class="col">
-                                            <a class="selectCurrency active" href="#">
-                                                <div class="text-dark text-md fw-medium">Indian Rupees</div>
-                                                <div class="text-muted-2 text-md text-uppercase">Inr</div>
-                                            </a>
-                                        </li>
-                                        <li class="col">
-                                            <a class="selectCurrency" href="#">
-                                                <div class="text-dark text-md fw-medium">Euro</div>
-                                                <div class="text-muted-2 text-md text-uppercase">EUR</div>
-                                            </a>
-                                        </li>
-                                        <li class="col">
-                                            <a class="selectCurrency" href="#">
-                                                <div class="text-dark text-md fw-medium">Australian Dollar</div>
-                                                <div class="text-muted-2 text-md text-uppercase">aud</div>
-                                            </a>
-                                        </li>
-                                        <li class="col">
-                                            <a class="selectCurrency" href="#">
-                                                <div class="text-dark text-md fw-medium">Thai Baht</div>
-                                                <div class="text-muted-2 text-md text-uppercase">thb</div>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-
-                            <div class="suggestedCurrencylist-wrap">
-                                <div class="d-inline-block mb-0 ps-3">
-                                    <h5 class="fs-6 fw-bold">All Currencies</h5>
-                                </div>
-                                <div class="suggestedCurrencylists">
-                                    <ul
-                                        class="row align-items-center justify-content-start row-cols-xl-4 row-cols-lg-3 row-cols-md-2 row-cols-2 gy-2 gx-3 m-0 p-0">
-                                        <li class="col">
-                                            <a class="selectCurrency" href="#">
-                                                <div class="text-dark text-md fw-medium">United State Dollar</div>
-                                                <div class="text-muted-2 text-md text-uppercase">USD</div>
-                                            </a>
-                                        </li>
-                                        <li class="col">
-                                            <a class="selectCurrency" href="#">
-                                                <div class="text-dark text-md fw-medium">Property currency</div>
-                                                <div class="text-muted-2 text-md text-uppercase">GBP</div>
-                                            </a>
-                                        </li>
-                                        <li class="col">
-                                            <a class="selectCurrency" href="#">
-                                                <div class="text-dark text-md fw-medium">Argentine Peso</div>
-                                                <div class="text-muted-2 text-md text-uppercase">EUR</div>
-                                            </a>
-                                        </li>
-                                        <li class="col">
-                                            <a class="selectCurrency" href="#">
-                                                <div class="text-dark text-md fw-medium">Azerbaijani Manat</div>
-                                                <div class="text-muted-2 text-md text-uppercase">Inr</div>
-                                            </a>
-                                        </li>
-                                        <li class="col">
-                                            <a class="selectCurrency" href="#">
-                                                <div class="text-dark text-md fw-medium">Australian Dollar</div>
-                                                <div class="text-muted-2 text-md text-uppercase">aud</div>
-                                            </a>
-                                        </li>
-                                        <li class="col">
-                                            <a class="selectCurrency" href="#">
-                                                <div class="text-dark text-md fw-medium">Bahraini Dinar</div>
-                                                <div class="text-muted-2 text-md text-uppercase">thb</div>
-                                            </a>
-                                        </li>
-                                        <li class="col">
-                                            <a class="selectCurrency" href="#">
-                                                <div class="text-dark text-md fw-medium">Brazilian Real</div>
-                                                <div class="text-muted-2 text-md text-uppercase">USD</div>
-                                            </a>
-                                        </li>
-                                        <li class="col">
-                                            <a class="selectCurrency" href="#">
-                                                <div class="text-dark text-md fw-medium">Bulgarian Lev</div>
-                                                <div class="text-muted-2 text-md text-uppercase">GBP</div>
-                                            </a>
-                                        </li>
-                                        <li class="col">
-                                            <a class="selectCurrency" href="#">
-                                                <div class="text-dark text-md fw-medium">Canadian Dollar</div>
-                                                <div class="text-muted-2 text-md text-uppercase">EUR</div>
-                                            </a>
-                                        </li>
-                                        <li class="col">
-                                            <a class="selectCurrency" href="#">
-                                                <div class="text-dark text-md fw-medium">Chilean Peso</div>
-                                                <div class="text-muted-2 text-md text-uppercase">Inr</div>
-                                            </a>
-                                        </li>
-                                        <li class="col">
-                                            <a class="selectCurrency" href="#">
-                                                <div class="text-dark text-md fw-medium">Colombian Peso</div>
-                                                <div class="text-muted-2 text-md text-uppercase">aud</div>
-                                            </a>
-                                        </li>
-                                        <li class="col">
-                                            <a class="selectCurrency" href="#">
-                                                <div class="text-dark text-md fw-medium">Danish Krone</div>
-                                                <div class="text-muted-2 text-md text-uppercase">thb</div>
-                                            </a>
-                                        </li>
-                                        <li class="col">
-                                            <a class="selectCurrency" href="#">
-                                                <div class="text-dark text-md fw-medium">Egyptian Pound</div>
-                                                <div class="text-muted-2 text-md text-uppercase">USD</div>
-                                            </a>
-                                        </li>
-                                        <li class="col">
-                                            <a class="selectCurrency" href="#">
-                                                <div class="text-dark text-md fw-medium">Hungarian Forint</div>
-                                                <div class="text-muted-2 text-md text-uppercase">GBP</div>
-                                            </a>
-                                        </li>
-                                        <li class="col">
-                                            <a class="selectCurrency" href="#">
-                                                <div class="text-dark text-md fw-medium">Japanese Yen</div>
-                                                <div class="text-muted-2 text-md text-uppercase">EUR</div>
-                                            </a>
-                                        </li>
-                                        <li class="col">
-                                            <a class="selectCurrency" href="#">
-                                                <div class="text-dark text-md fw-medium">Jordanian Dinar</div>
-                                                <div class="text-muted-2 text-md text-uppercase">Inr</div>
-                                            </a>
-                                        </li>
-                                        <li class="col">
-                                            <a class="selectCurrency" href="#">
-                                                <div class="text-dark text-md fw-medium">Kuwaiti Dinar</div>
-                                                <div class="text-muted-2 text-md text-uppercase">aud</div>
-                                            </a>
-                                        </li>
-                                        <li class="col">
-                                            <a class="selectCurrency" href="#">
-                                                <div class="text-dark text-md fw-medium">Malaysian Ringgit</div>
-                                                <div class="text-muted-2 text-md text-uppercase">thb</div>
-                                            </a>
-                                        </li>
-                                        <li class="col">
-                                            <a class="selectCurrency" href="#">
-                                                <div class="text-dark text-md fw-medium">Singapore Dollar</div>
-                                                <div class="text-muted-2 text-md text-uppercase">thb</div>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> -->
-
-
-        <!-- Choose Countries Modal -->
-        <!-- <div class="modal modal-lg fade" id="countryModal" tabindex="-1" aria-labelledby="countryModalLabel"
-            aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h4 class="modal-title fs-6" id="countryModalLabel">Select Your Country</h4>
-                        <a href="#" class="text-muted fs-4" data-bs-dismiss="modal" aria-label="Close"><i
-                                class="fa-solid fa-square-xmark"></i></a>
-                    </div>
-                    <div class="modal-body">
-                        <div class="allCountrieslist">
-
-                            <div class="suggestedCurrencylist-wrap mb-4">
-                                <div class="d-inline-block mb-0 ps-3">
-                                    <h5 class="fs-6 fw-bold">Suggested Countries For you</h5>
-                                </div>
-                                <div class="suggestedCurrencylists">
-                                    <ul
-                                        class="row align-items-center justify-content-start row-cols-xl-4 row-cols-lg-3 row-cols-2 gy-2 gx-3 m-0 p-0">
-                                        <li class="col">
-                                            <a class="selectCountry" href="#">
-                                                <div class="d-inline-block"><img src="assets/img/flag/united-states.png" class="img-fluid circle"
-                                                        width="35" alt=""></div>
-                                                <div class="text-dark text-md fw-medium ps-2">United State Dollar</div>
-                                            </a>
-                                        </li>
-                                        <li class="col">
-                                            <a class="selectCountry" href="#">
-                                                <div class="d-inline-block"><img src="assets/img/flag/united-kingdom.png" class="img-fluid circle"
-                                                        width="35" alt=""></div>
-                                                <div class="text-dark text-md fw-medium ps-2">Pound Sterling</div>
-                                            </a>
-                                        </li>
-                                        <li class="col">
-                                            <a class="selectCountry active" href="#">
-                                                <div class="d-inline-block"><img src="assets/img/flag/flag.png" class="img-fluid circle" width="35"
-                                                        alt=""></div>
-                                                <div class="text-dark text-md fw-medium ps-2">Indian Rupees</div>
-                                            </a>
-                                        </li>
-                                        <li class="col">
-                                            <a class="selectCountry" href="#">
-                                                <div class="d-inline-block"><img src="assets/img/flag/belgium.png" class="img-fluid circle" width="35"
-                                                        alt=""></div>
-                                                <div class="text-dark text-md fw-medium ps-2">Euro</div>
-                                            </a>
-                                        </li>
-                                        <li class="col">
-                                            <a class="selectCountry" href="#">
-                                                <div class="d-inline-block"><img src="assets/img/flag/brazil.png" class="img-fluid circle" width="35"
-                                                        alt=""></div>
-                                                <div class="text-dark text-md fw-medium ps-2">Australian Dollar</div>
-                                            </a>
-                                        </li>
-                                        <li class="col">
-                                            <a class="selectCountry" href="#">
-                                                <div class="d-inline-block"><img src="assets/img/flag/china.png" class="img-fluid circle" width="35"
-                                                        alt=""></div>
-                                                <div class="text-dark text-md fw-medium ps-2">Thai Baht</div>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-
-                            <div class="suggestedCurrencylist-wrap">
-                                <div class="d-inline-block mb-0 ps-3">
-                                    <h5 class="fs-6 fw-bold">All Countries</h5>
-                                </div>
-                                <div class="suggestedCurrencylists">
-                                    <ul
-                                        class="row align-items-center justify-content-start row-cols-xl-4 row-cols-lg-3 row-cols-2 gy-2 gx-3 m-0 p-0">
-                                        <li class="col">
-                                            <a class="selectCountry" href="#">
-                                                <div class="d-inline-block"><img src="assets/img/flag/united-states.png" class="img-fluid circle"
-                                                        width="35" alt=""></div>
-                                                <div class="text-dark text-md fw-medium ps-2">United State Dollar</div>
-                                            </a>
-                                        </li>
-                                        <li class="col">
-                                            <a class="selectCountry" href="#">
-                                                <div class="d-inline-block"><img src="assets/img/flag/vietnam.png" class="img-fluid circle" width="35"
-                                                        alt=""></div>
-                                                <div class="text-dark text-md fw-medium ps-2">Property currency</div>
-                                            </a>
-                                        </li>
-                                        <li class="col">
-                                            <a class="selectCountry" href="#">
-                                                <div class="d-inline-block"><img src="assets/img/flag/turkey.png" class="img-fluid circle" width="35"
-                                                        alt=""></div>
-                                                <div class="text-dark text-md fw-medium ps-2">Argentine Peso</div>
-                                            </a>
-                                        </li>
-                                        <li class="col">
-                                            <a class="selectCountry" href="#">
-                                                <div class="d-inline-block"><img src="assets/img/flag/spain.png" class="img-fluid circle" width="35"
-                                                        alt=""></div>
-                                                <div class="text-dark text-md fw-medium ps-2">Azerbaijani Manat</div>
-                                            </a>
-                                        </li>
-                                        <li class="col">
-                                            <a class="selectCountry" href="#">
-                                                <div class="d-inline-block"><img src="assets/img/flag/japan.png" class="img-fluid circle" width="35"
-                                                        alt=""></div>
-                                                <div class="text-dark text-md fw-medium ps-2">Australian Dollar</div>
-                                            </a>
-                                        </li>
-                                        <li class="col">
-                                            <a class="selectCountry" href="#">
-                                                <div class="d-inline-block"><img src="assets/img/flag/flag.png" class="img-fluid circle" width="35"
-                                                        alt=""></div>
-                                                <div class="text-dark text-md fw-medium ps-2">Bahraini Dinar</div>
-                                            </a>
-                                        </li>
-                                        <li class="col">
-                                            <a class="selectCountry" href="#">
-                                                <div class="d-inline-block"><img src="assets/img/flag/portugal.png" class="img-fluid circle"
-                                                        width="35" alt=""></div>
-                                                <div class="text-dark text-md fw-medium ps-2">Brazilian Real</div>
-                                            </a>
-                                        </li>
-                                        <li class="col">
-                                            <a class="selectCountry" href="#">
-                                                <div class="d-inline-block"><img src="assets/img/flag/italy.png" class="img-fluid circle" width="35"
-                                                        alt=""></div>
-                                                <div class="text-dark text-md fw-medium ps-2">Bulgarian Lev</div>
-                                            </a>
-                                        </li>
-                                        <li class="col">
-                                            <a class="selectCountry" href="#">
-                                                <div class="d-inline-block"><img src="assets/img/flag/germany.png" class="img-fluid circle" width="35"
-                                                        alt=""></div>
-                                                <div class="text-dark text-md fw-medium ps-2">Canadian Dollar</div>
-                                            </a>
-                                        </li>
-                                        <li class="col">
-                                            <a class="selectCountry" href="#">
-                                                <div class="d-inline-block"><img src="assets/img/flag/france.png" class="img-fluid circle" width="35"
-                                                        alt=""></div>
-                                                <div class="text-dark text-md fw-medium ps-2">Chilean Peso</div>
-                                            </a>
-                                        </li>
-                                        <li class="col">
-                                            <a class="selectCountry" href="#">
-                                                <div class="d-inline-block"><img src="assets/img/flag/european.png" class="img-fluid circle"
-                                                        width="35" alt=""></div>
-                                                <div class="text-dark text-md fw-medium ps-2">Colombian Peso</div>
-                                            </a>
-                                        </li>
-                                        <li class="col">
-                                            <a class="selectCountry" href="#">
-                                                <div class="d-inline-block"><img src="assets/img/flag/china.png" class="img-fluid circle" width="35"
-                                                        alt=""></div>
-                                                <div class="text-dark text-md fw-medium ps-2">Danish Krone</div>
-                                            </a>
-                                        </li>
-                                        <li class="col">
-                                            <a class="selectCountry" href="#">
-                                                <div class="d-inline-block"><img src="assets/img/flag/brazil.png" class="img-fluid circle" width="35"
-                                                        alt=""></div>
-                                                <div class="text-dark text-md fw-medium ps-2">Egyptian Pound</div>
-                                            </a>
-                                        </li>
-                                        <li class="col">
-                                            <a class="selectCountry" href="#">
-                                                <div class="d-inline-block"><img src="assets/img/flag/belgium.png" class="img-fluid circle" width="35"
-                                                        alt=""></div>
-                                                <div class="text-dark text-md fw-medium ps-2">Hungarian Forint</div>
-                                            </a>
-                                        </li>
-                                        <li class="col">
-                                            <a class="selectCountry" href="#">
-                                                <div class="d-inline-block"><img src="assets/img/flag/turkey.png" class="img-fluid circle" width="35"
-                                                        alt=""></div>
-                                                <div class="text-dark text-md fw-medium ps-2">Japanese Yen</div>
-                                            </a>
-                                        </li>
-                                        <li class="col">
-                                            <a class="selectCountry" href="#">
-                                                <div class="d-inline-block"><img src="assets/img/flag/spain.png" class="img-fluid circle" width="35"
-                                                        alt=""></div>
-                                                <div class="text-dark text-md fw-medium ps-2">Jordanian Dinar</div>
-                                            </a>
-                                        </li>
-                                        <li class="col">
-                                            <a class="selectCountry" href="#">
-                                                <div class="d-inline-block"><img src="assets/img/flag/germany.png" class="img-fluid circle" width="35"
-                                                        alt=""></div>
-                                                <div class="text-dark text-md fw-medium ps-2">Kuwaiti Dinar</div>
-                                            </a>
-                                        </li>
-                                        <li class="col">
-                                            <a class="selectCountry" href="#">
-                                                <div class="d-inline-block"><img src="assets/img/flag/france.png" class="img-fluid circle" width="35"
-                                                        alt=""></div>
-                                                <div class="text-dark text-md fw-medium ps-2">Malaysian Ringgit</div>
-                                            </a>
-                                        </li>
-                                        <li class="col">
-                                            <a class="selectCountry" href="#">
-                                                <div class="d-inline-block"><img src="assets/img/flag/brazil.png" class="img-fluid circle" width="35"
-                                                        alt=""></div>
-                                                <div class="text-dark text-md fw-medium ps-2">Singapore Dollar</div>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> -->
+        
 
         <!-- Video Modal -->
         <div class="modal fade" id="popup-video" tabindex="-1" role="dialog" aria-labelledby="popupvideo" aria-hidden="true">
