@@ -186,7 +186,7 @@
             <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
                 <div class="cardCities cursor rounded-2">
                     <div class="cardCities-image ratio ratio-4">
-                        <img src="assets/img/city/colombo.jpg" class="img-fluid object-fit" alt="image">
+                        <img src="https://i.pinimg.com/736x/5c/56/8b/5c568b6615a09a5652007d09a5fcad8c.jpg" class="img-fluid object-fit" alt="image">
                     </div>
                     <div class="citiesCard-content d-flex flex-column justify-content-between text-center px-4 py-4">
                         <div class="cardCities-bg"></div>
@@ -210,7 +210,7 @@
             <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
                 <div class="cardCities cursor rounded-2">
                     <div class="cardCities-image ratio ratio-4">
-                        <img src="assets/img/city/kandy.jpg" class="img-fluid object-fit" alt="image">
+                        <img src="https://cdn.getyourguide.com/image/format=auto,fit=crop,gravity=auto,quality=60,width=450,height=450,dpr=2/tour_img/70f5bfb0fb2fbd876b38f133538afcf11111a412115092e2803099e9ae4e5bc9.jpg" class="img-fluid object-fit" alt="image">
                     </div>
                     <div class="citiesCard-content d-flex flex-column justify-content-between text-center px-4 py-4">
                         <div class="cardCities-bg"></div>
@@ -234,7 +234,7 @@
             <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
                 <div class="cardCities cursor rounded-2">
                     <div class="cardCities-image ratio ratio-4">
-                        <img src="assets/img/city/ella.jpg" class="img-fluid object-fit" alt="image">
+                        <img src="https://www.srilankawidetours.com/wp-content/uploads/2019/04/Ella-Sri-Lanka-8-Fantastic-things-to-do-in-Ella-Sri-Lanka-e1554930904131.jpg" class="img-fluid object-fit" alt="image">
                     </div>
                     <div class="citiesCard-content d-flex flex-column justify-content-between text-center px-4 py-4">
                         <div class="cardCities-bg"></div>
@@ -282,7 +282,7 @@
             <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
                 <div class="cardCities cursor rounded-2">
                     <div class="cardCities-image ratio ratio-4">
-                        <img src="assets/img/city/sigiriya.jpg" class="img-fluid object-fit" alt="image">
+                        <img src="https://www.lovesrilanka.org/wp-content/uploads/2020/04/Sigiriya-Rock-Fortress-800.jpg" class="img-fluid object-fit" alt="image">
                     </div>
                     <div class="citiesCard-content d-flex flex-column justify-content-between text-center px-4 py-4">
                         <div class="cardCities-bg"></div>
