@@ -36,7 +36,7 @@
 <!-- Custom Red Border Style -->
 <style>
     .select2-container--default .select2-selection--single {
-        border: 2px solid #ff6666 !important; /* soft red */
+        border: 2px solid #2a4b7c !important; /* soft red */
         border-radius: 6px;
         height: 42px;
         padding: 6px 12px;
@@ -68,7 +68,7 @@
         <div class="clearfix"></div>
 
         <!-- Hero Banner -->
-        <div class="py-5 bg-primary position-relative">
+        <div class="py-5  position-relative" style="background-color: #2a4b7c;">
             <div class="container">
                 <div class="row justify-content-center align-items-center">
                     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
@@ -125,9 +125,11 @@
                                                 </div>
                                             </div>
                                             <div class="col-xl-4 col-lg-4 col-md-4 col-sm-4">
-                                                <div class="form-group mb-0">
-                                                    <button type="submit" class="btn btn-whites text-primary full-width fw-medium"><i class="fa-solid fa-magnifying-glass me-2"></i>Search</button>
-                                                </div>
+                                            <div class="form-group mb-0">
+                                                <button type="submit" class="btn btn-whites full-width fw-medium" style="color: #2a4b7c;">
+                                                <i class="fa-solid fa-magnifying-glass me-2"></i>Search
+                                                </button>
+                                            </div>
                                             </div>
                                         </div>
                                     </div>
@@ -152,9 +154,9 @@
 											<h6 class="fw-bold fs-5 m-0">Room Filters</h6>
 											<p class="text-md text-muted m-0">Showing <span id="room-count">{{ $roomCount }}</span> Rooms</p>
 										</div>
-										<div class="searchBar-headerlast text-end">
-											<a href="{{ url()->current() }}" class="text-md fw-medium text-primary active">Clear All</a>
-										</div>
+                                        <div class="searchBar-headerlast text-end">
+                                        <a href="{{ url()->current() }}" class="text-md fw-medium active" style="color: #2a4b7c;">Clear All</a>
+                                        </div>
 									</div>
 								</div>
 								<div class="filter-searchBar-body">
@@ -268,15 +270,14 @@
 
                                     </div>
                                     <div class="flsx-first mt-sm-0 mt-2">
-                                        <ul class="nav nav-pills nav-fill p-1 small lights blukker bg-primary rounded-3 shadow-sm" id="filtersblocks" role="tablist">
-                                            <li class="nav-item" role="presentation">
-                                                <a class="nav-link {{ $filters['sort'] == 'trending' ? 'active' : '' }} rounded-3" href="{{ route('hotelFilter', array_merge($filters, ['sort' => 'trending'])) }}">Trending</a>
-                                            </li>
-
-                                            <li class="nav-item" role="presentation">
-                                                <a class="nav-link {{ $filters['sort'] == 'lowprice' ? 'active' : '' }} rounded-3" href="{{ route('hotelFilter', array_merge($filters, ['sort' => 'lowprice'])) }}">Lowest Price</a>
-                                            </li>
-                                        </ul>
+                                    <ul class="nav nav-pills nav-fill p-1 small lights blukker rounded-3 shadow-sm" id="filtersblocks" role="tablist" style="background-color: #2a4b7c;">
+                                        <li class="nav-item" role="presentation">
+                                        <a class="nav-link {{ $filters['sort'] == 'trending' ? 'active' : '' }} rounded-3" href="{{ route('hotelFilter', array_merge($filters, ['sort' => 'trending'])) }}">Trending</a>
+                                        </li>
+                                        <li class="nav-item" role="presentation">
+                                        <a class="nav-link {{ $filters['sort'] == 'lowprice' ? 'active' : '' }} rounded-3" href="{{ route('hotelFilter', array_merge($filters, ['sort' => 'lowprice'])) }}">Lowest Price</a>
+                                        </li>
+                                    </ul>
                                     </div>
                                 </div>
                             </div>

@@ -258,7 +258,7 @@
             <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
                 <div class="cardCities cursor rounded-2">
                     <div class="cardCities-image ratio ratio-4">
-                        <img src="https://mugunthanb56.sg-host.com/wp-content/uploads/2021/11/inner-banner_Mob_Negombo-Beach-720x720-1-1.jpg" class="img-fluid object-fit" alt="image">
+                        <img src="https://www.storiesbysoumya.com/wp-content/uploads/2022/03/st-sebastian-church-negombo.jpg" class="img-fluid object-fit" alt="image">
                     </div>
                     <div class="citiesCard-content d-flex flex-column justify-content-between text-center px-4 py-4">
                         <div class="cardCities-bg"></div>
@@ -306,7 +306,7 @@
             <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6">
                 <div class="cardCities cursor rounded-2">
                     <div class="cardCities-image ratio ratio-4">
-                        <img src="https://mugunthanb56.sg-host.com/wp-content/uploads/2021/11/inner-banner_Mob_Galle-Fort-Walking-Tour-720x720-1.jpg" class="img-fluid object-fit" alt="image">
+                        <img src="https://www.atlasandboots.com/wp-content/uploads/2017/03/Galle-Fort-Clock-Tower.jpg" class="img-fluid object-fit" alt="image">
                     </div>
                     <div class="citiesCard-content d-flex flex-column justify-content-between text-center px-4 py-4">
                         <div class="cardCities-bg"></div>

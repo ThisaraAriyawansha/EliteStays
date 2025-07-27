@@ -24,9 +24,9 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link {{ request()->routeIs('flights') ? 'active' : '' }}" 
-                           href="{{ route('flights') }}" 
+                           href="{{ route('about') }}" 
                            style="color: #4a6b8a; padding: 6px 10px; font-size: 0.8rem;">
-                           <i class="fa-solid fa-plane me-1" style="font-size: 0.75rem;"></i> Flights
+                           <i class="fa-solid fa-plane me-1" style="font-size: 0.75rem;"></i> About Us
                         </a>
                     </li>
                     <li class="nav-item">
@@ -36,13 +36,7 @@
                            <i class="fa-solid fa-hotel me-1" style="font-size: 0.75rem;"></i> Hotels
                         </a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link {{ request()->routeIs('property') ? 'active' : '' }}" 
-                           href="{{ route('property') }}" 
-                           style="color: #4a6b8a; padding: 6px 10px; font-size: 0.8rem;">
-                           <i class="fa-solid fa-house-user me-1" style="font-size: 0.75rem;"></i> Rentals
-                        </a>
-                    </li>
+
                 </ul>
 
                 <!-- Right Side Elements -->
@@ -58,11 +52,7 @@
                            <img src="assets/img/flag/FlagUK.webp" width="14" class="me-1">
                            <span class="d-none d-md-inline">English</span>
                         </a>
-                        <ul class="dropdown-menu dropdown-menu-end">
-                            <li><a class="dropdown-item" href="#" style="font-size: 0.8rem;">English</a></li>
-                            <li><a class="dropdown-item" href="#" style="font-size: 0.8rem;">සිංහල</a></li>
-                            <li><a class="dropdown-item" href="#" style="font-size: 0.8rem;">தமிழ்</a></li>
-                        </ul>
+
                     </div>
 
                     <!-- Currency Selector -->
@@ -76,11 +66,7 @@
                            <i class="fa-solid fa-dollar-sign me-1" style="font-size: 0.7rem;"></i>
                            <span class="d-none d-md-inline">USD</span>
                         </a>
-                        <ul class="dropdown-menu dropdown-menu-end">
-                            <li><a class="dropdown-item" href="#" style="font-size: 0.8rem;">LKR - Sri Lankan Rupee</a></li>
-                            <li><a class="dropdown-item" href="#" style="font-size: 0.8rem;">USD - US Dollar</a></li>
-                            <li><a class="dropdown-item" href="#" style="font-size: 0.8rem;">EUR - Euro</a></li>
-                        </ul>
+
                     </div>
 
                     <!-- User Account -->
@@ -267,25 +253,7 @@
                         @endif
                     </form>
                 </div>
-                <div class="prixer px-3">
-                    <div class="devider-wraps position-relative">
-                        <div class="devider-text text-muted-2 text-md">Sign In with More Methods</div>
-                    </div>
-                </div>
-                <div class="social-login py-4 px-2">
-                    <ul class="row align-items-center justify-content-between g-3 p-0 m-0">
-                        <li class="col"><a href="#" class="square--60 border br-dashed rounded-2 full-width"><i
-                                    class="fa-brands fa-facebook color--facebook fs-2"></i></a></li>
-                        <li class="col"><a href="#" class="square--60 border br-dashed rounded-2"><i
-                                    class="fa-brands fa-whatsapp color--whatsapp fs-2"></i></a></li>
-                        <li class="col"><a href="#" class="square--60 border br-dashed rounded-2"><i
-                                    class="fa-brands fa-linkedin color--linkedin fs-2"></i></a></li>
-                        <li class="col"><a href="#" class="square--60 border br-dashed rounded-2"><i
-                                    class="fa-brands fa-dribbble color--dribbble fs-2"></i></a></li>
-                        <li class="col"><a href="#" class="square--60 border br-dashed rounded-2"><i
-                                    class="fa-brands fa-twitter color--twitter fs-2"></i></a></li>
-                    </ul>
-                </div>
+
             </div>
             <div class="modal-footer align-items-center justify-content-center">
                 <p>Don't have an account yet?

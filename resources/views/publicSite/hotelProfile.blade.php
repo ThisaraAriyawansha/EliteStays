@@ -3,8 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>BoomBitz Hotels Details</title>
-    <link rel="icon" type="image/x-icon" href="{{ asset('assets/img/headerboombitz.png') }}">
+    <title>EliteStays Hotels Details</title>
 
     <!-- All Plugins -->
     <link href="{{ asset('assets/css/bootstrap.min.css') }}" rel="stylesheet">

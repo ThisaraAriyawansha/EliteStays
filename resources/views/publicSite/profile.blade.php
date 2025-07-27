@@ -55,7 +55,7 @@
                 <div class="row align-items-start justify-content-between gx-xl-4">
                     <div class="col-xl-4 col-lg-4 col-md-12">
                         <div class="card rounded-2 me-xl-5 mb-4">
-                            <div class="card-top bg-primary position-relative">
+                            <div class="card-top  position-relative" style="background-color: #2a4b7c;">
                                 <div class="position-absolute end-0 top-0 mt-4 me-3">
                                     <a href="{{ route('customer.logout') }}" onclick="event.preventDefault(); document.getElementById('logout-form').submit();" class="square--40 circle bg-light-dark text-light"><i class="fa-solid fa-right-from-bracket"></i></a>
                                     <form id="logout-form" action="{{ route('customer.logout') }}" method="POST" style="display: none;">

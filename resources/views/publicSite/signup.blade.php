@@ -6,7 +6,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>BoomBitz</title>
+  <title>EliteStays</title>
 
   <!-- All Plugins -->
   <link href="assets/css/bootstrap.min.css" rel="stylesheet">
@@ -62,7 +62,7 @@
 								<div class="col-lg-6 order-1">
 									<div class="p-4 p-sm-7">
 										<!-- Logo -->
-										<a href="index.html">
+										<a href="{{ route('home') }}">
 											<img class="img-fluid mb-4" src="assets/img/logo-icon.png" width="70" alt="logo">
 										</a>
 										<!-- Title -->

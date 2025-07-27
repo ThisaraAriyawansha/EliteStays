@@ -7,7 +7,6 @@
                             <li><a href="{{ route('customeraddHotel') }}"><i class="fa-solid fa-ticket me-2"></i>Add Hotel</a></li>
                             <li><a href="{{ route('customerManageHotel') }}"><i class="fa-solid fa-user-group me-2"></i>Manage Hotel</a></li>
                             <li><a href="{{ route('customerManageRoom') }}"><i class="fa-solid fa-wallet me-2"></i>Manage Room</a></li>
-                            <li><a href="{{ route('customerManageBooking') }}"><i class="fa-solid fa-shield-heart me-2"></i>Booking</a></li>
                             <li><a href="{{ route('customer.logout') }}" onclick="event.preventDefault(); document.getElementById('logout-form').submit();"><i class="fa-solid fa-power-off me-2"></i>Sign Out</a></li>
                             <form id="logout-form" action="{{ route('customer.logout') }}" method="POST" style="display: none;">
                                 @csrf

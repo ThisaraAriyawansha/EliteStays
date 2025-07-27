@@ -326,9 +326,7 @@
                                 <i class="fas fa-bed"></i>
                             </div>
                             <h3 class="empty-text">You haven't added any rooms yet</h3>
-                            <a href="{{ route('customerAddRoom') }}?hotel_id={{ Auth::user()->hotels->first()->id ?? '' }}" class="empty-link">
-                                Add your first room <i class="fas fa-arrow-right"></i>
-                            </a>
+
                         </div>
                     @else
                         <div class="table-responsive">

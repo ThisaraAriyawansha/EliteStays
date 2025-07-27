@@ -70,7 +70,7 @@ Route::post('/logout', [AuthController::class, 'logout'])->name('logout');
 
 //Public Site Routes
 Route::get('/', [HomeController::class, 'home'])->name('home');
-Route::get('/flights', [HomeController::class, 'flights'])->name('flights');
+Route::get('/about', [HomeController::class, 'flights'])->name('about');
 Route::get('/hotelFilter', [HomeController::class, 'hotelFilter'])->name('hotelFilter');
 Route::get('/property', [HomeController::class, 'property'])->name('property');
 Route::get('/hotelDetails', [HomeController::class, 'hotelDetails'])->name('hotelDetails');
