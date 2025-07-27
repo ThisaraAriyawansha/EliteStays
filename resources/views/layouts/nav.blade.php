@@ -36,6 +36,8 @@
                            <i class="fa-solid fa-hotel me-1" style="font-size: 0.75rem;"></i> Hotels
                         </a>
                     </li>
+                    
+                    
 
                 </ul>
 
