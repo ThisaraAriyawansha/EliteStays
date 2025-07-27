@@ -7,8 +7,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>BoomBitz</title>
-    <link rel="icon" type="image/x-icon" href="assets/img/headerboombitz.png">
+  <title>EliteStays</title>
   <!-- All Plugins -->
   <link href="assets/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/css/animation.css" rel="stylesheet">

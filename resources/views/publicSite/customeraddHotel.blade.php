@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Add Hotel - BoomBitz</title>
+    <title>Add Hotel - EliteStays</title>
     <link href="{{ asset('assets/css/bootstrap.min.css') }}" rel="stylesheet">
     <link href="{{ asset('assets/css/animation.css') }}" rel="stylesheet">
     <link href="{{ asset('assets/css/dropzone.min.css') }}" rel="stylesheet">
